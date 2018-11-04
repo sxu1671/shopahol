@@ -4,6 +4,7 @@
   "description": "To track what shopaholics are addicted to",
   "version": "0.1",
   "author": "Sophia Xu, Jacky Zhu",
+  
   "permissions": [
     "webRequest",
     "*://*.amazon.com*"
@@ -15,5 +16,10 @@
     ],
     "js": ["content.js"]
   }
-]
+],
+
+"background": {
+  "scripts": [ "bg.js"]
+}
+
 }
