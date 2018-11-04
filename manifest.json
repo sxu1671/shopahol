@@ -2,17 +2,17 @@
   "manifest_version": 2,
   "name": "Shopahol",
   "description": "To track what shopaholics are addicted to",
-  "version": "0.1",
+  "version": "0.2",
   "author": "Sophia Xu, Jacky Zhu",
   
   "permissions": [
     "webRequest",
-    "*://*.amazon.com*"
+    "*://*.amazon.com/*"
   ],
   "content_scripts": [
   {
     "matches": [
-      "*://*.amazon.com*"
+      "*://*.amazon.com/*"
     ],
     "js": ["content.js"]
   }
