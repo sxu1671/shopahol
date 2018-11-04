@@ -14,7 +14,7 @@
     "matches": [
       "*://*.amazon.com/*"
     ],
-    "js": ["content.js", "util.js"]
+    "js": ["content.js"]
   }
 ],
 "background": {
