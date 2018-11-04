@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Shopahol",
   "description": "To track what shopaholics are addicted to",
-  "version": "0.4",
+  "version": "0.5",
   "author": "Sophia Xu, Jacky Zhu",
   
   "permissions": [
