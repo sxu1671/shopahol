@@ -1,3 +1,3 @@
-function isConfirmation(url) {
-    
-}
+// function isConfirmation(url) {
+
+// }
