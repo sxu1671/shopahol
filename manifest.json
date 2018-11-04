@@ -6,12 +6,12 @@
   "author": "Sophia Xu, Jacky Zhu",
   "permissions": [
     "webRequest",
-    "*://*.amazon.com*"
+    "*://*.amazon.com/*"
   ],
   "content_scripts": [
   {
     "matches": [
-      "*://*.amazon.com*"
+      "*://*.amazon.com/*"
     ],
     "js": ["content.js"]
   }
